@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Add Patient</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<h2>Add New Patient</h2>
+<form action="#" th:action="@{/add}" th:object="${patient}" method="post">
+  Name: <input type="text" th:field="*{name}" /><br>
+  Age: <input type="number" th:field="*{age}" /><br>
+  Diagnosis: <input type="text" th:field="*{diagnosis}" /><br>
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,4 @@
+com\capstone\simplepatientmgmt\model\Patient.class
+com\capstone\simplepatientmgmt\SimplePatientMgmtApplication.class
+com\capstone\simplepatientmgmt\controller\PatientController.class
+com\capstone\simplepatientmgmt\repository\PatientRepository.class
